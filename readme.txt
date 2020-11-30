@@ -84,7 +84,7 @@ good, with the added benefit of it being unique to my program.
 
 Peter Shirley for his awesome books that let even a complete beginner at 3D rendering like me, create this in 5 days or so
 Dan for helping me debug my renderer and shader code
-juliasets.dk for being an amazing resource on Mandelbrot sets and Julia sets
+http://www.juliasets.dk/Pictures_of_Julia_and_Mandelbrot_sets.htm for being an amazing resource on Mandelbrot sets and Julia sets
 And their wikibook 'Pictures of Julia and Mandelbrot Sets', which provided the algorithms for most of Mandelbrot.hs and MandelbrotColors.hs
 Syntopia's Fragmentarium code for its implementation of stereographic projection, which I ported to Haskell basically without changes (I think)
 The people of the first years' CompSci Discord server for keeping me from going insane while writing this
