@@ -19,7 +19,7 @@ This can take up to 10 minutes or even more depending on computational power and
     The original idea behind my submission was to take a few winning entries from the previous years, and combine their aspects to create
 an aesthetically pleasing 3D abstract scene, however this has evolved into something more specific during development, and after going deep down
 the rabbithole of fractals. To accomplish my goal, I first started with building a simple raytracer, which currently only supports rendering
-spheres, with two materials, "diffuse" and "metal". I have tried to design it so that I will easier be able to expand it later on, however this
+spheres, with two materials, "diffuse" and "metal". I have tried to design it so that I will be able to expand on it more easily later on, however this
 project was more so an exercise in development within a short timeframe, rather than an exercise in best practices and maintainable/elegant code.
     The next step was expanding the scene to somehow incorporate fractals. The natural approach was to render the fractals on top of the
 spheres so that they create a whole together. And then the task was finding fractals that would best facilitate this, while also looking good.
@@ -77,6 +77,14 @@ I highly recommend not touching the other modules, as the code is the opposite o
 most complicated Maths. You can look through the code of course, but for example I also do not fully understand Mandelbrot.hs and
 MandelbrotColors.hs. I'll even tell you the secret that the latter has a pretty major bug, but it just so happens that the result still looks
 good, with the added benefit of it being unique to my program.
+
+----------------
+-- Known Bugs --
+----------------
+
+When two spheres are really close to each other, or intersecting, the shadows right on the boundary between them become light grey.
+The coloring of the Mandelbrot fractal in the background is not exactly as intended.
+The big homogeneous circles on the front of the spheres.
 
 -------------------------
 -- Credits and sources --
