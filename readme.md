@@ -67,18 +67,18 @@ can even have a coffee break while your computer does all the work for you for o
 
 As explained in the description
 
-Main.hs
-    ourPicture    -- Render modes ('3D vs 2D' / Scene vs Bg. fractal)
-SphereHitCheck.hs
-    originPoint (z coord is relatively safe, the rest less so)
-    sphereList    -- Individual access to sphere properties
-Tracer.hs
-    xW, yW        -- Probably the most important settings because of their effect on rendering times.
-    aAMult        -- Higher means less spottiness for diffuse materials, also has a significant effect on render times.
-Fractals.hs
-    escapeRadius  -- Higher means smaller homogeneous area on spheres, but more "zoomed out" fractals on them too.
-    func          -- Input custom polynomial for differently shaped fractals.
-    set...        -- 'Remote' access to the fractal parameters in sphereList of SphereHitCheck.hs
+- Main.hs
+  - ourPicture    -- Render modes ('3D vs 2D' / Scene vs Bg. fractal)
+- SphereHitCheck.hs
+  - originPoint (z coord is relatively safe, the rest less so)
+  - sphereList    -- Individual access to sphere properties
+- Tracer.hs
+  - xW, yW        -- Probably the most important settings because of their effect on rendering times.
+  - aAMult        -- Higher means less spottiness for diffuse materials, also has a significant effect on render times.
+- Fractals.hs
+  - escapeRadius  -- Higher means smaller homogeneous area on spheres, but more "zoomed out" fractals on them too.
+  - func          -- Input custom polynomial for differently shaped fractals.
+  - set...        -- 'Remote' access to the fractal parameters in sphereList of SphereHitCheck.hs
 
 I highly recommend not touching the other modules, as the code is the opposite of clean for the ones I wrote latest, as well as having the
 most complicated Maths. You can look through the code of course, but for example I also do not fully understand Mandelbrot.hs and
