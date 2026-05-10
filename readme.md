@@ -18,7 +18,7 @@ This can take up to 10 minutes or even more depending on computational power and
 -- Description and Settings --
 ------------------------------
 
-    The original idea behind my submission was to take a few winning entries from the previous years, and combine their aspects to create
+The original idea behind my submission was to take a few winning entries from the previous years, and combine their aspects to create
 an aesthetically pleasing 3D abstract scene, however this has evolved into something more specific during development, and after going deep down
 the rabbithole of fractals. To accomplish my goal, I first started with building a simple raytracer, which currently only supports rendering
 spheres, with two materials, "diffuse" and "metal". I have tried to design it so that I will be able to expand on it more easily later on, however this
