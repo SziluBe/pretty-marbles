@@ -1,4 +1,4 @@
-![Sample rendered image][https://github.com/SziluBe/pretty-marbles/blob/master/gallery/15-behind-you.png]
+![Sample rendered image](https://github.com/SziluBe/pretty-marbles/blob/master/gallery/15-behind-you.png)
 
 -----------
 -- Setup --
